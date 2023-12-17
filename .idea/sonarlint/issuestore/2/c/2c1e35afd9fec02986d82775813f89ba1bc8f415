@@ -1,0 +1,14 @@
+
+G	java:S106"+Replace this use of System.out by a logger.(ÂŒæí8á‚º½Ç1
+L	java:S106"+Replace this use of System.out by a logger.(‘ßâàûÿÿÿÿ8á‚º½Ç1
+L	java:S106"+Replace this use of System.out by a logger.(²¾ïþøÿÿÿÿ8á‚º½Ç1
+L	java:S106"+Replace this use of System.out by a logger.(©Í­¾ûÿÿÿÿ8á‚º½Ç1
+G	java:S106 "+Replace this use of System.out by a logger.(…­¢‘8á‚º½Ç1
+L	java:S106!"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8â‚º½Ç1
+L	java:S106&"+Replace this use of System.out by a logger.(úÒöÛüÿÿÿÿ8â‚º½Ç1
+L	java:S106)"+Replace this use of System.out by a logger.(×ÂÐšþÿÿÿÿ8â‚º½Ç1
+]
+java:S1128
+"@Remove this unused import 'javax.persistence.NoResultException'.(ŒºíÐ8èåõ½Ç1
+O
+java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8áô¼½Ç1
