@@ -13,4 +13,4 @@ target/
 *.iml
 *.ipr
 
-src/main/resources/database.properties
+src/main/resources/db1.properties

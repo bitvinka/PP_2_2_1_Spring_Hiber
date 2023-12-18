@@ -6,31 +6,31 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.persistence.NoResultException;
 import java.util.List;
 
 @Service
 @Transactional(readOnly = true)
 public class UserServiceImp implements UserService {
-   private final UserDao userDao;
-   @Autowired
-   public UserServiceImp(UserDao userDao) {
-      this.userDao = userDao;
-   }
+    private final UserDao userDao;
 
-   @Transactional
-   @Override
-   public void add(User user) {
-      userDao.add(user);
-   }
+    @Autowired
+    public UserServiceImp(UserDao userDao) {
+        this.userDao = userDao;
+    }
 
-   @Override
-   public List<User> listUsers() {
-      return userDao.listUsers();
-   }
+    @Transactional
+    @Override
+    public void add(User user) {
+        userDao.add(user);
+    }
 
-   @Override
-   public User getUserByCar(String model, int series) {
-      return userDao.getUserByCar(model, series);
-   }
+    @Override
+    public List<User> listUsers() {
+        return userDao.listUsers();
+    }
+
+    @Override
+    public User getUserByCar(String model, int series) {
+        return userDao.getUserByCar(model, series);
+    }
 }
